@@ -10,23 +10,33 @@ header {
   border-bottom: 1px solid #000;
 }
 
-.parent {
+#parent {
   position: relative;
   top: 105px;
+  font-size: 0;
+  margin: auto;
 
-  width: 1190px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-.block {
+#block {
   display: inline-block;
 
-  width: 280px;
-  height: 280px;
+  width: 25%;
+  height: 25vw;
 
-  padding: 5px; 
-  border: 1px solid #000; 
   background: #aaa;
 }
 
+/*@media screen and (max-width: 1280) {
+	#block {
+      width: 50%;
+      height: 50vw;
+	}
+}
+
+@media screen and (min-width: 1281) {
+	#block {
+      width: 25%;
+      height: 25vw;
+	}
+} */
